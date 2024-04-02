@@ -1,0 +1,11 @@
+[centosgroup]
+centos1
+centos2
+centos3
+centosserver[0:90].oracle.com 
+
+[ubuntugroup]
+ubuntu1
+ubuntu2 ansible_become=true ansible_become_pass=password
+ubuntu3
+

@@ -1,0 +1,12 @@
+---
+- hosts: ubuntu1
+  user : ansible
+  gather_facts: false
+
+  tasks :
+    - name : configure a motd
+      copy:
+        dest: /tmp/motd
+        content: "Welcome to the Ansible managed node\n"
+        
+...
